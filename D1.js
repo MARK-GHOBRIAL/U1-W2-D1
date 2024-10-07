@@ -74,7 +74,7 @@ console.log("la seconda somma e'" + " " + secondaSomma)
 let name1 = "John"
 let name2 = "john"
 let primoRisultato = name1 == name2
-console.log("il primo risultato e'" + " " + primoRisultato) //il risultato deve essere dispari false
+console.log("il primo risultato e'" + " " + primoRisultato) //il risultato deve essere false
 
 let secondoRisultato
 secondoRisultato = name1.toLowerCase() === name2.toLowerCase()
