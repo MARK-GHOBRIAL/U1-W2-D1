@@ -35,7 +35,7 @@ console.log("myName is" + " " + myName)
 let a = 12
 let b = 20
 let primaSomma = a + b
-console.Log("la prima somma e'" + " " + primaSomma)
+console.log("la prima somma e'" + " " + primaSomma)
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -73,9 +73,9 @@ console.log("la seconda somma e'" + " " + secondaSomma)
 /* SCRIVI QUI LA TUA RISPOSTA */
 let name1 = "John"
 let name2 = "john"
-let primoRisultato = John !== john
-console.log("il risultato e'" + " " + risultato)
+let primoRisultato = name1 == name2
+console.log("il primo risultato e'" + " " + primoRisultato) //il risultato deve essere dispari true
 
 let secondoRisultato
 secondoRisultato = name1.toLowerCase() === name2.toLowerCase()
-console.log("il secondo risultato e'" + " " + secondoRisultato)
+console.log("il secondo risultato e'" + " " + secondoRisultato) //il risultato deve essere true
